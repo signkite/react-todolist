@@ -1,0 +1,51 @@
+.container {
+  width: 400px;
+  height: 500px;
+  margin: auto;
+  border-radius: 25px;
+  overflow: hidden;
+  position: relative;
+}
+
+.darkmode {
+  width: 30px;
+  height: 30px;
+  background-image: url('./images/darkmode.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  filter: invert(100%)
+}
+
+.lightmode {
+  width: 30px;
+  height: 30px;
+
+  position: absolute;
+  left: 10px;
+  top: 10px;
+
+  background-image: url('./images/lightmode.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+
+.header {
+  width: 380px;
+  height: 30px;
+  padding: 10px;
+  background-color: #fff;
+  display: flex;
+  line-height: 2;
+  flex-direction: row-reverse;
+}
+
+.filter {
+
+}
+
+.filter:hover {
+  cursor: pointer;
+  color: orange;
+}

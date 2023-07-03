@@ -1,15 +1,14 @@
 import React from 'react';
-import { DelIcon } from './TodoElement.styled.jsx';
+import { DelIcon, Container, TodoText } from './TodoElement.styled.jsx';
 
-export default function TodoElement() {
-  const temp = "todolist"
+export default function TodoElement({todo}) {
   return (
-    <div style={{display: 'flex'}}>
+    <Container>
       <input type="checkbox" />
-      <div>{temp}</div>
+      <TodoText>{todo}</TodoText>
       <div>
         <DelIcon/>
       </div>
-    </div>
+    </Container>
   )
 }
