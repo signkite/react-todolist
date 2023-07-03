@@ -10,10 +10,16 @@
 .darkmode {
   width: 30px;
   height: 30px;
+
+  position: absolute;
+  left: 10px;
+  top: 10px;
+  
   background-image: url('./images/darkmode.png');
   background-position: center;
   background-repeat: no-repeat;
   background-size: 100% 100%;
+
   filter: invert(100%)
 }
 
@@ -29,6 +35,16 @@
   background-position: center;
   background-repeat: no-repeat;
   background-size: 100% 100%;
+}
+
+.lightmode:hover {
+  cursor: pointer;
+  filter: invert(50%);
+}
+
+.darkmode:hover {
+  cursor: pointer;
+  filter: invert(50%);
 }
 
 .header {
@@ -48,4 +64,12 @@
 .filter:hover {
   cursor: pointer;
   color: orange;
+}
+
+.inputLine {
+  width: 400px;
+  height: 50px;
+  position: absolute;
+  left: 0;
+  bottom: 0;
 }

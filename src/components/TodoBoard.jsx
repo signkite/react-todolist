@@ -2,16 +2,15 @@ import React from 'react'
 import TodoElement from './TodoElement';
 import { useState } from 'react';
 
-export default function TodoBoard({filter}) {
-  const [todoItems, setTodoItems] = useState(['he', 'llo']);
+export default function TodoBoard({todoItems, handleDelete}) {
 
   return (
     <>
       <ul style={{listStyleType: 'none', margin: 0, padding: 0}}>
           {
-            todoItems.map((todo)=>
+            todoItems.map((todo, index)=>
               <li key={todo} style={{marginTop: '10px'}}>
-                <TodoElement todo={todo} />
+                <TodoElement todo={todo} handleDelete={()=>{handleDelete(index)}}/>
               </li>
             )
           }
