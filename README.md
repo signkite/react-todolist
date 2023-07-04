@@ -1,7 +1,7 @@
 ### 기본 시작 화면
 
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/30f7a9ab-b7c2-424f-b6da-fb5403a7f63f/Untitled.png)
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/30f7a9ab-b7c2-424f-b6da-fb5403a7f63f/Untitled.png)
+![todo-main](https://github.com/signkite/react-todolist/assets/50399725/5472a69a-4cd8-474f-8dc3-2a46ad79e5cd)
+
 ### 할 일 추가
 
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/a303c43a-4ee2-421d-b6f1-968adacb184f/Untitled.png)
+![todo-append](https://github.com/signkite/react-todolist/assets/50399725/20dcab55-dcc4-40bf-a25a-e2daed701180)
